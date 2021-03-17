@@ -1,0 +1,42 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background: #b488dd;
+}
+
+.contenedor {
+  max-width: 1000px;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (270px)[3];
+      grid-template-columns: repeat(3, 270px);
+  -ms-grid-rows: (270px)[3];
+      grid-template-rows: repeat(3, 270px);
+  gap: 4px;
+}
+
+.contenedor > input {
+  background-color: #87c3f8;
+  border-radius: 2px;
+  color: black;
+  font-size: 150px;
+  text-align: center;
+}
+
+.contenedor input:hover {
+  background-color: blue;
+  color: black;
+}
+
+#reinicio {
+  font-size: 0.8em;
+  margin-top: 2em;
+  padding: 0.7em;
+  color: white;
+  background-color: #77d;
+}
+/*# sourceMappingURL=index.css.map */
